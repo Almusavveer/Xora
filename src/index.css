@@ -57,7 +57,7 @@
   }
 
   .h6 {
-    @apply text-[24px] font-medium leading-[36px];
+    @apply text-[23px] font-medium leading-[36px];
   }
 
   .body-1 {

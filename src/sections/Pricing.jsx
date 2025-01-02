@@ -2,7 +2,7 @@ import clsx from "clsx";
 import { useState } from "react";
 import { Element } from "react-scroll";
 import { images } from "../assets/images";
-import { features, plans } from "../constants";
+import { plans } from "../constants";
 import CountUp from "react-countup";
 import Button from "../components/Button";
 
@@ -143,7 +143,11 @@ const Pricing = () => {
                 <div className="mt-10 flex w-full justify-center">
                   <Button icon={plan.icon}>Get Started</Button>
                 </div>
-                {index === 1 && <p className="smalll-compact mt-9 text-center text-p3 before:mx-2.5 before:content-['-'] after:mx-2.5 after:content-['-'] "> Limited time offer</p>}
+                {index === 1 && (
+                  <p className="smalll-compact mt-9 text-center text-p3 before:mx-2.5 before:content-['-'] after:mx-2.5 after:content-['-'] ">
+                    Limited time offer
+                  </p>
+                )}
               </div>
             ))}
           </div>
