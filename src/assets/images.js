@@ -34,8 +34,12 @@ import amplitude from "../assets/images/logos/amplitude.svg";
 import sonos from "../assets/images/logos/sonos.svg";
 import maze from "../assets/images/logos/maze.svg";
 import drips from "../assets/images/logos/drips.svg";
-import lines from '../assets/images/lines.svg'
-import screen from '../assets/images/screen.jpg'
+import lines from "../assets/images/lines.svg";
+import screen from "../assets/images/screen.jpg";
+import x from "../assets/images/socials/x.svg";
+import threads from "../assets/images/socials/threads.svg";
+import instagram from "../assets/images/socials/instagram.svg";
+import discord from "../assets/images/socials/discord.svg";
 
 export const images = {
   logo,
@@ -75,5 +79,9 @@ export const images = {
   maze,
   drips,
   lines,
-  screen
+  screen,
+  x,
+  threads,
+  instagram,
+  discord,
 };
