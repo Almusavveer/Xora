@@ -23,6 +23,12 @@ import triangle from "../assets/images/triangle.svg";
 import hexagon from "../assets/images/hexagon.svg";
 import check from "../assets/images/check.png";
 import faqLogo from "../assets/images/faq-logo.svg";
+import avatr1 from "../assets/images/testimonials/jessica-saunders.png";
+import avatr2 from "../assets/images/testimonials/mark-erixon.png";
+import avatr3 from "../assets/images/testimonials/melanie-hurst.png";
+import avatr4 from "../assets/images/testimonials/alicia-barker.png";
+import avatr5 from "../assets/images/testimonials/becky-snider.png";
+import avatr6 from "../assets/images/testimonials/jim-bradley.png";
 
 export const images = {
   logo,
@@ -50,4 +56,10 @@ export const images = {
   hexagon,
   check,
   faqLogo,
+  avatr1,
+  avatr2,
+  avatr3,
+  avatr4,
+  avatr5,
+  avatr6,
 };
