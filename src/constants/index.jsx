@@ -214,35 +214,35 @@ export const logos = [
   {
     id: "0",
     title: "Afterpay",
-    url: "/images/logos/afterpay.svg",
+    url: `${images.afterPay}`,
     width: 156,
     height: 48,
   },
   {
     id: "1",
     title: "Amplitude",
-    url: "/images/logos/amplitude.svg",
+    url: `${images.amplitude}`,
     width: 194,
     height: 48,
   },
   {
     id: "2",
     title: "Sonos",
-    url: "/images/logos/sonos.svg",
+    url: `${images.sonos}`,
     width: 115,
     height: 48,
   },
   {
     id: "3",
     title: "Maze",
-    url: "/images/logos/maze.svg",
+    url: `${images.maze}`,
     width: 142,
     height: 48,
   },
   {
     id: "4",
     title: "Drips",
-    url: "/images/logos/drips.svg",
+    url: `${images.drips}`,
     width: 77,
     height: 48,
   },
@@ -375,6 +375,33 @@ export const Web = () => {
     </svg>
   );
 };
+
+export const links = [
+  {
+    id: "0",
+    title: "Ios",
+    icon: <Ios />,
+    url: "#",
+  },
+  {
+    id: "1",
+    title: "Android",
+    icon: <Android />,
+    url: "#",
+  },
+  {
+    id: "2",
+    title: "Windows",
+    icon: <Windows />,
+    url: "#",
+  },
+  {
+    id: "3",
+    title: "Web",
+    icon: <Web />,
+    url: "#",
+  },
+];
 
 export const socials = [
   {

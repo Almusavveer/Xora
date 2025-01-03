@@ -29,6 +29,13 @@ import avatr3 from "../assets/images/testimonials/melanie-hurst.png";
 import avatr4 from "../assets/images/testimonials/alicia-barker.png";
 import avatr5 from "../assets/images/testimonials/becky-snider.png";
 import avatr6 from "../assets/images/testimonials/jim-bradley.png";
+import afterPay from "../assets/images/logos/afterpay.svg";
+import amplitude from "../assets/images/logos/amplitude.svg";
+import sonos from "../assets/images/logos/sonos.svg";
+import maze from "../assets/images/logos/maze.svg";
+import drips from "../assets/images/logos/drips.svg";
+import lines from '../assets/images/lines.svg'
+import screen from '../assets/images/screen.jpg'
 
 export const images = {
   logo,
@@ -62,4 +69,11 @@ export const images = {
   avatr4,
   avatr5,
   avatr6,
+  afterPay,
+  amplitude,
+  sonos,
+  maze,
+  drips,
+  lines,
+  screen
 };
